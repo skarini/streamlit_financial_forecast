@@ -1,5 +1,5 @@
 # streamlit_financial_forecast
-# 📈 Financial Forecasting App (Snowflake + Streamlit)
+# Financial Forecasting App (Snowflake + Streamlit)
 
 This is a simple web application that demonstrates a financial forecasting proof of concept (POC).
 
