@@ -1,6 +1,0 @@
-# requirements.txt
-streamlit
-pandas
-prophet
-snowflake-connector-python
-plotly
