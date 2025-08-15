@@ -23,7 +23,7 @@ def get_snowflake_data():
     return df
 
 # === Main Application UI === #
-st.title("Financial Forecasting App (Snowflake + Prophet)")
+st.title("Financial Forecasting App")
 st.markdown("This app retrieves financial data from Snowflake and forecasts future revenue using Prophet:")
 
 st.markdown("---")
@@ -81,4 +81,5 @@ st.dataframe(forecast_table)
 
 # Download Button
 csv = forecast_table.to_csv(index=False).encode('utf-8')
+
 st.download_button("⬇️ Download Forecast CSV", csv, "forecast.csv", "text/csv")
